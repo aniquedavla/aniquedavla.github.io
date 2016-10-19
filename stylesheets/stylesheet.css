@@ -53,7 +53,7 @@ a {
       margin-top: 1rem;
       margin-left: 0; } }
 
-@-webkit-keyframes titleAnimation {20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}}@-moz-keyframes titleAnimation{20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}}@-ms-keyframes titleAnimation{20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}}@keyframes titleAnimation{20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}}
+@-webkit-keyframes titleAnimation {20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}20%{background:#0d9ddb;}0%{background:black;}40%{background:#f65058;}80%{background:#00ba6e;}60%{background:#ffc700;}}@-moz-keyframes titleAnimation{20%{background:#0d9ddb;}40%{background:#f65058;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}60%{background:#ffc700;}80%{background:#00ba6e;}}@-ms-keyframes titleAnimation{20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}}@keyframes titleAnimation{20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}}
 .page-header {
   text-align: right;
   background-color: #159957;}
@@ -104,7 +104,7 @@ a {
 @media screen and (max-width: 42em) {
   .project-tagline {
     font-size: 1rem; } }
-
+@-webkit-keyframes footerAnimation {80%{background:#00ba6e;}20%{background:#0d9ddb;}0%{background:black;}40%{background:#f65058;}80%{background:#00ba6e;}20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}60%{background:#ffc700;}}@-moz-keyframes titleAnimation{20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}}@-ms-keyframes titleAnimation{20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}}@keyframes titleAnimation{20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}}
 .main-content :first-child {
   margin-top: 0; }
 .main-content img {
@@ -246,7 +246,7 @@ a {
     font-size: 0.9rem; } }
     //?
 @charset "UTF-8";
-@-webkit-keyframes background-color{0%{background:black;}20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}100%{background:black;}}@-moz-keyframes background-color{0%{background:black;}20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}100%{background:black;}}@-ms-keyframes background-color{0%{background:black;}20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}100%{background:black;}}@keyframes background-color{0%{background:black;}20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}100%{background:black;}}#header .header-wrapper{opacity:0;background:black;margin:0px auto;font-weight:bold;letter-spacing:.09em;text-align:center;font-family:'open sans',sans-serif;position:fixed;z-index:5;height:100px;width:300px;overflow:hidden;}
+@-webkit-keyframes background-color{20%{background:#0d9ddb;}0%{background:black;}40%{background:#f65058;}80%{background:#00ba6e;}60%{background:#ffc700;}100%{background:black;}}@-moz-keyframes background-color{0%{background:black;}20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}100%{background:black;}}@-ms-keyframes background-color{0%{background:black;}20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}100%{background:black;}}@keyframes background-color{0%{background:black;}20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}100%{background:black;}}#header .header-wrapper{opacity:0;background:black;margin:0px auto;font-weight:bold;letter-spacing:.09em;text-align:center;font-family:'open sans',sans-serif;position:fixed;z-index:5;height:100px;width:300px;overflow:hidden;}
 #header .header-wrapper.collapsed .nav{bottom:-40px;}
 #header .header-wrapper.collapsed .start{letter-spacing:-.1em;}
 #header .header-wrapper.animated{-webkit-animation-delay:0s;-webkit-animation-duration:120s;-webkit-animation-name:background-color;-webkit-animation-fill-mode:forwards;-webkit-animation-iteration-count:infinite;-moz-animation-delay:0s;-moz-animation-duration:120s;-moz-animation-name:background-color;-moz-animation-fill-mode:forwards;-moz-animation-iteration-count:infinite;-o-animation-delay:0s;-o-animation-duration:120s;-o-animation-name:background-color;-o-animation-fill-mode:forwards;-o-animation-iteration-count:infinite;animation-delay:0s;animation-duration:120s;animation-name:background-color;animation-fill-mode:forwards;animation-iteration-count:infinite;}
