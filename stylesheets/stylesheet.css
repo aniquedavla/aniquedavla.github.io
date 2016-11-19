@@ -119,8 +119,8 @@ a {
   width: 100%;
   display:table-row;
   margin-top: 0;}*/
-/*.main-content {
-  height: calc(100vh - 50px); }*/
+.main-content {
+  height: calc(100vh - 50px); }
 .main-content :first-child {
   margin-top: 0; }
 .main-content img {
@@ -294,20 +294,4 @@ a {
   box-sizing: border-box;
 }
 @-webkit-keyframes titleAnimation {20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}20%{background:#0d9ddb;}0%{background:black;}40%{background:#f65058;}80%{background:#00ba6e;}60%{background:#ffc700;}}@-moz-keyframes titleAnimation{20%{background:#0d9ddb;}40%{background:#f65058;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}60%{background:#ffc700;}80%{background:#00ba6e;}}@-ms-keyframes titleAnimation{20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}}@keyframes titleAnimation{20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}}
-.box {
-  display: flex;
-  flex-flow: column;
-  flex-flow: height:auto;
-  height: 100%;
-}
-.box .row {
-  border: 100px dotted grey;
-}
-.box .row.page-header {
-  flex: 0 1 auto;
-}
-
-.box .row.main-content {
-  flex: 1 0 auto;
-}
 
