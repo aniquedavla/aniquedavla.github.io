@@ -27,3 +27,8 @@
 // window.onload = function(){
 //     adjustStyle();
 // }
+//
+$(function(){
+  headerHeight = $(".page-header").outerHeight();
+  $(".page-content").css("height":"50px");
+  });

@@ -120,6 +120,7 @@ a {
   display:table-row;
   margin-top: 0;}*/
 .main-content {
+  overflow-y: auto;
   height: calc(100vh - 50px); }
 .main-content :first-child {
   margin-top: 0; }
