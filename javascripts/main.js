@@ -10,12 +10,9 @@ window.onresize = function(){
 setDivSize = function(){
     var element = document.getElementById("main-header");
     var headerHeight = window.getComputedStyle(element,null).getPropertyValue("height");
-    console.log(headerHeight);
     heightString = headerHeight.replace(/\D/g,"");
     heightInt = parseInt(heightString);
-    console.log(heightInt);
     var heightAvailable = (window.innerHeight) - heightInt;
-    console.log(heightAvailable);
     var contentDiv = document.getElementById("page-content");
     $("#page-content").css({
         "height": heightAvailable
