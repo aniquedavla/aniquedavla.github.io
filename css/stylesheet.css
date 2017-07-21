@@ -1,16 +1,16 @@
 @media screen and (min-width: 64em) {
-  .page-header {
+  .header {
     padding-top: 0;
     width: inherit;
     height: 100px;
     padding: 0 2rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  .page-header {
-    padding: 0 1.5em; } }
+  .header {
+    padding: 0 0; } }
 
 @media screen and (max-width: 42em) {
-  .page-header {
+  .header {
     padding: 0 1rem; } }
 
 .project-name {
@@ -194,6 +194,12 @@
 /*logo animation & style*/
 @charset "UTF-8";
 @-webkit-keyframes background-color{20%{background:#0d9ddb;}0%{background:black;}40%{background:#f65058;}80%{background:#00ba6e;}60%{background:#ffc700;}100%{background:black;}}@-moz-keyframes background-color{0%{background:black;}20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}100%{background:black;}}@-ms-keyframes background-color{0%{background:black;}20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}100%{background:black;}}@keyframes background-color{0%{background:black;}20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}100%{background:black;}}#header .header-wrapper{opacity:0;background:black;margin:0px auto;font-weight:bold;letter-spacing:.09em;text-align:center;font-family:'open sans',sans-serif;position:fixed;z-index:5;height:100px;width:300px;overflow:hidden;}
+.project-name {
+
+}
+.project-tagline {
+  
+}
 #header .header-wrapper {
   opacity: 0;
   background: black;
