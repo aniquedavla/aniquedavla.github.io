@@ -1,6 +1,13 @@
 * {
   box-sizing: border-box; }
-
+#forkme:hover {
+  -webkit-animation: titleAnimation 9s infinite;
+}
+body{
+  background-image: url('../images/album/yosem1.jpg'), url('../images/album/angel1.jpg'), url('../images/album/hunter1.jpg');
+  background-size: 1300px 802px;
+  background-repeat: repeat-x;
+}
 html,body {
   height: 100%;
   margin: 0;
@@ -268,8 +275,8 @@ a {
 @-webkit-keyframes background-color{20%{background:#0d9ddb;}0%{background:black;}40%{background:#f65058;}80%{background:#00ba6e;}60%{background:#ffc700;}100%{background:black;}}@-moz-keyframes background-color{0%{background:black;}20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}100%{background:black;}}@-ms-keyframes background-color{0%{background:black;}20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}100%{background:black;}}@keyframes background-color{0%{background:black;}20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}100%{background:black;}}#header .header-wrapper{opacity:0;background:black;margin:0px auto;font-weight:bold;letter-spacing:.09em;text-align:center;font-family:'open sans',sans-serif;position:fixed;z-index:5;height:100px;width:300px;overflow:hidden;}
 #header .header-wrapper.collapsed .nav{bottom:-40px;}
 #header .header-wrapper.collapsed .start{letter-spacing:-.1em;}
-#header .header-wrapper.animated{-webkit-animation-delay:0s;-webkit-animation-duration:120s;-webkit-animation-name:background-color;-webkit-animation-fill-mode:forwards;-webkit-animation-iteration-count:infinite;-moz-animation-delay:0s;-moz-animation-duration:120s;-moz-animation-name:background-color;-moz-animation-fill-mode:forwards;-moz-animation-iteration-count:infinite;-o-animation-delay:0s;-o-animation-duration:120s;-o-animation-name:background-color;-o-animation-fill-mode:forwards;-o-animation-iteration-count:infinite;animation-delay:0s;animation-duration:120s;animation-name:background-color;animation-fill-mode:forwards;animation-iteration-count:infinite;}
-#header .header-wrapper.animated .start{-webkit-animation-delay:0s;-webkit-animation-duration:120s;-webkit-animation-name:background-color;-webkit-animation-fill-mode:forwards;-webkit-animation-iteration-count:infinite;-moz-animation-delay:0s;-moz-animation-duration:120s;-moz-animation-name:background-color;-moz-animation-fill-mode:forwards;-moz-animation-iteration-count:infinite;-o-animation-delay:0s;-o-animation-duration:120s;-o-animation-name:background-color;-o-animation-fill-mode:forwards;-o-animation-iteration-count:infinite;animation-delay:0s;animation-duration:120s;animation-name:background-color;animation-fill-mode:forwards;animation-iteration-count:infinite;}
+#header .header-wrapper.animated{-webkit-animation-delay:0s;-webkit-animation-duration:90s;-webkit-animation-name:background-color;-webkit-animation-fill-mode:forwards;-webkit-animation-iteration-count:infinite;-moz-animation-delay:0s;-moz-animation-duration:120s;-moz-animation-name:background-color;-moz-animation-fill-mode:forwards;-moz-animation-iteration-count:infinite;-o-animation-delay:0s;-o-animation-duration:120s;-o-animation-name:background-color;-o-animation-fill-mode:forwards;-o-animation-iteration-count:infinite;animation-delay:0s;animation-duration:120s;animation-name:background-color;animation-fill-mode:forwards;animation-iteration-count:infinite;}
+#header .header-wrapper.animated .start{-webkit-animation-delay:0s;-webkit-animation-duration:90s;-webkit-animation-name:background-color;-webkit-animation-fill-mode:forwards;-webkit-animation-iteration-count:infinite;-moz-animation-delay:0s;-moz-animation-duration:120s;-moz-animation-name:background-color;-moz-animation-fill-mode:forwards;-moz-animation-iteration-count:infinite;-o-animation-delay:0s;-o-animation-duration:120s;-o-animation-name:background-color;-o-animation-fill-mode:forwards;-o-animation-iteration-count:infinite;animation-delay:0s;animation-duration:120s;animation-name:background-color;animation-fill-mode:forwards;animation-iteration-count:infinite;}
 #header .header-wrapper h1{position:relative;font-size:40px;text-align:left;margin:10px 0;}
 #header .header-wrapper h1 span.wrapper span{position:relative;color:white;font-family:"Open Sans","Source Sans Pro",sans-serif;}
 #header .header-wrapper h1 span.wrapper span.start{padding-left:20px;background:black;}
