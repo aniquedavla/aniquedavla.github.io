@@ -4,7 +4,7 @@
   -webkit-animation: titleAnimation 9s infinite;
 }
 body{
-  background-image: url('../images/album/yosem1.jpg'), url('../images/album/angel1.jpg'), url('../images/album/hunter1.jpg');
+  background-image: url('images/album/yosem1.jpg'), url('images/album/angel1.jpg'), url('images/album/hunter1.jpg');
   background-size: 1300px 802px;
   background-repeat: repeat-x;
 }
