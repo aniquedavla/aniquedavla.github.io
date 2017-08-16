@@ -55,20 +55,37 @@ a {
   .btn {
     padding: 0.75rem 1rem; } }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
+@media screen and (min-width: 32em) and (max-width: 41em) {
   .btn {
     padding: 0.6rem 0.9rem;
     font-size: 0.9rem; } }
 
 @media screen and (max-width: 42em) {
   .btn {
-    display: block;
-    width: 100%;
-    padding: 0.75rem;
-    font-size: 0.9rem; }
+    display: inline;
+    padding: 0.7  5rem;
+    font-size: 0.8rem; }
     .btn + .btn {
       margin-top: 1rem;
-      margin-left: 0; } }
+      margin-left: 0; } 
+      .page-findme{
+        padding-top: 10%;
+      }
+      .project-name{
+        font-size: .7rem;
+      }
+}
+@media only screen 
+    and (min-width : 375px)
+    and (max-width : 667px)
+    and (width : 375px)
+    and (height : 559px)
+    and (-webkit-min-pixel-ratio : 2){
+      .btn {
+        padding: 0.6rem 0.9rem;
+        font-size: 0.9rem; 
+      } 
+}
 
 /*@-webkit-keyframes titleAnimation {20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}20%{background:#0d9ddb;}0%{background:black;}40%{background:#f65058;}80%{background:#00ba6e;}60%{background:#ffc700;}}@-moz-keyframes titleAnimation{20%{background:#0d9ddb;}40%{background:#f65058;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}60%{background:#ffc700;}80%{background:#00ba6e;}}@-ms-keyframes titleAnimation{20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}}@keyframes titleAnimation{20%{background:#0d9ddb;}40%{background:#f65058;}60%{background:#ffc700;}80%{background:#00ba6e;}}
 */
