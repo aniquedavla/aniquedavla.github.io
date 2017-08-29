@@ -254,7 +254,7 @@ body {
   }
   .social {
     position: fixed;
-    left:1;
+    left:3px;
   }
   .social ul {
     padding: 0px;
@@ -286,14 +286,14 @@ body {
     -ms-transform: translate(110px, 0);
     -o-transform: translate(110px, 0);
     transform: translate(110px, 0);
-    background: rgba(255, 255, 255, 0.4);
+    background:#66B1F1;
   }
   .social ul li:hover a {
     color: #000;
   }
   .social ul li:hover i {
     color: #fff;
-    background: red;
+    background: #16a085;
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
@@ -309,7 +309,7 @@ body {
     margin-left: 10px;
     color: #000;
     background: #fff;
-    padding: 12px;
+    padding: 25px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
