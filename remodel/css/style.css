@@ -1,12 +1,12 @@
 body {
     font-family: "Century Gothic", 'Lato', sans-serif;
-    background-color: #34495e;
+    background-color: rgb(47, 52, 54);
   }
   
   a {
     font-family: "geomanistitalic";
-    color: #fff;    
-    font-weight: 100;    
+    color: rgb(255, 255, 255);    
+    font-weight: 1000;    
     text-decoration: none;    
   }
   .et-hero-tabs h1{
@@ -29,7 +29,7 @@ body {
             align-items: center;
     height: 100vh;
     position: relative;
-    background: #34495e;
+    background: rgb(47, 52, 54);
     text-align: center;
     padding: 0 2em;
   }
@@ -62,7 +62,7 @@ body {
     width: 100%;
     height: 70px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    background: #16a085;
+    background: rgb(229, 33, 39);
     z-index: 10;
   }
   .et-hero-tabs-container--top {
@@ -90,8 +90,8 @@ body {
     font-size: 0.8rem;
   }
   .et-hero-tab:hover {
-    color: white;
-    background: rgba(102, 177, 241, 0.8);
+    color: black;
+    background:#fff;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
   }
@@ -101,7 +101,7 @@ body {
     bottom: 0;
     width: 0;
     height: 6px;
-    background: #66B1F1;
+    background: #fff;
     -webkit-transition: left 0.3s ease;
     transition: left 0.3s ease;
   }
@@ -152,7 +152,7 @@ body {
   .content__container:after, .content__container:before {
     position: absolute;
     top: 0;
-    color: #16a085;
+    color: rgb(229, 33, 39);
     font-size: 42px;
     line-height: 40px;
     -webkit-animation-name: opacity;
@@ -267,7 +267,7 @@ body {
   .social ul li {
     display: block;
     margin: 5px;
-    background: #16a085;
+    background: rgb(229, 33, 39);
     width: 300px;
     text-align: right;
     padding: 10px;
@@ -286,14 +286,14 @@ body {
     -ms-transform: translate(110px, 0);
     -o-transform: translate(110px, 0);
     transform: translate(110px, 0);
-    background:#66B1F1;
+    background:#ffff;
   }
   .social ul li:hover a {
-    color: #000;
+    color: white;
   }
   .social ul li:hover i {
-    color: #fff;
-    background: #16a085;
+    color: black;
+    background:white;
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
@@ -323,3 +323,9 @@ body {
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+  /* 
+  light green: rgb(229, 33, 39)
+  blackish:background: rgb(47, 52, 54);
+
+  pitch red:rgb(229, 33, 39)
+   */
