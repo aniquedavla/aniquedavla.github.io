@@ -18,6 +18,9 @@ setDivSize = function(){
         "height": heightAvailable
     });
 }
+$(document).ready(function(){
+    
+});
 
 
 // // function adjustStyle() {
