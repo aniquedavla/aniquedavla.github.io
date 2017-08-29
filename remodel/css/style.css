@@ -4,7 +4,10 @@ body {
   }
   
   a {
-    text-decoration: none;
+    font-family: "geomanistitalic";
+    color: #fff;    
+    font-weight: 100;    
+    text-decoration: none;    
   }
   
   .et-hero-tabs,
@@ -27,6 +30,9 @@ body {
     background: #34495e;
     text-align: center;
     padding: 0 2em;
+  }
+  .et-slide h1{
+    color: white;
   }
   .et-hero-tabs h1,
   .et-slide h1 {
@@ -75,7 +81,7 @@ body {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
-    color: #000;
+    color: #ecf0f1;
     letter-spacing: 0.1rem;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
@@ -244,5 +250,74 @@ body {
               transform: translate3d(0, -25%, 0);
     }
   }
-  
-  
+  .social {
+    position: fixed;
+    left:1;
+  }
+  .social ul {
+    padding: 0px;
+    -webkit-transform: translate(-270px, 0);
+    -moz-transform: translate(-270px, 0);
+    -ms-transform: translate(-270px, 0);
+    -o-transform: translate(-270px, 0);
+    transform: translate(-270px, 0);
+  }
+  .social ul li {
+    display: block;
+    margin: 5px;
+    background: #16a085;
+    width: 300px;
+    text-align: right;
+    padding: 10px;
+    -webkit-border-radius: 0 30px 30px 0;
+    -moz-border-radius: 0 30px 30px 0;
+    border-radius: 0 30px 30px 0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+  }
+  .social ul li:hover {
+    -webkit-transform: translate(110px, 0);
+    -moz-transform: translate(110px, 0);
+    -ms-transform: translate(110px, 0);
+    -o-transform: translate(110px, 0);
+    transform: translate(110px, 0);
+    background: rgba(255, 255, 255, 0.4);
+  }
+  .social ul li:hover a {
+    color: #000;
+  }
+  .social ul li:hover i {
+    color: #fff;
+    background: red;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+  }
+  .social ul li i {
+    margin-left: 10px;
+    color: #000;
+    background: #fff;
+    padding: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    background: #ffffff;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
