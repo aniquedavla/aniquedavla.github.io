@@ -110,30 +110,6 @@ body {
     -webkit-transition: left 0.3s ease;
     transition: left 0.3s ease;
   }
-/* larger screens, mobile first style */
-  @media (min-width: 800px) {
-    html{
-      font-size: 18px;
-    }
-    .et-hero-tabs h1,
-    .et-slide h1 {
-      font-size: 3rem;
-    }
-    .et-hero-tabs h3,
-    .et-slide h3 {
-      font-size: 1rem;
-    }
-
-    .et-hero-tab {
-      font-size: 1rem;
-      font-family:'Arima Madurai', cursive;
-    }
-    .social{
-
-    }
-    .content{}
-  }
-
   .content {
     position: absolute;
     top: 50%;
@@ -143,15 +119,15 @@ body {
     height: 180px;
     overflow: hidden;
     font-family: 'Lato', sans-serif;
-    font-size: 35px;
+    font-size: 20px;
     line-height: 40px;
     color: #ecf0f1;
   }
   .content__container {
     font-weight: 600;
     overflow: hidden;
-    height: 45px;
-    padding: 0 45px;
+    height: 35px;
+    padding: 0 25px;
   }
   .content__container:before {
     content: '[';
@@ -182,7 +158,7 @@ body {
   }
   .content__container__list {
     margin-top: 0;
-    padding-left: 110px;
+    padding-left: 90px;
     text-align: left;
     list-style: none;
     -webkit-animation-name: change;
@@ -193,7 +169,7 @@ body {
     animation-iteration-count: infinite;
   }
   .content__container__list__item {
-    line-height: 40px;
+    line-height: 35px;
     margin: 0;
   }
 
@@ -336,6 +312,57 @@ body {
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+/* larger screens, mobile first style */
+  @media (min-width: 800px) {
+    html{
+      font-size: 18px;
+    }
+    .et-hero-tabs h1,
+    .et-slide h1 {
+      font-size: 3rem;
+    }
+    .et-hero-tabs h3,
+    .et-slide h3 {
+      font-size: 1rem;
+    }
+
+    .et-hero-tab {
+      font-size: 1.5rem;
+      font-family:'Arima Madurai', cursive;
+    }
+    .social{
+
+    }
+    .content {
+        height: 180px;
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .content__container {
+      font-size: 35px;
+      height: 45px;
+      padding: 0 45px;
+    }
+    .content__container__list__item {
+      font-size: 35px;
+      line-height: 40px;
+      margin: 0;
+    }
+    .content__container__list {
+      margin-top: 0;
+      padding-left: 110px;
+      text-align: left;
+      list-style: none;
+      -webkit-animation-name: change;
+      -webkit-animation-duration: 10s;
+      -webkit-animation-iteration-count: infinite;
+      animation-name: change;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+    }
+  }
+
+  
   /*
   light green: rgb(229, 33, 39)
   blackish:background: rgb(47, 52, 54);
