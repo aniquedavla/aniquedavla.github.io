@@ -1,13 +1,14 @@
 body {
-    font-family: "Century Gothic", 'Lato', sans-serif;
+    font-family: "Arima Madurai", "Century Gothic", 'Lato', sans-serif;
     background-color: rgb(47, 52, 54);
   }
-  
-  a {
-    font-family: "geomanistitalic";
-    color: rgb(255, 255, 255);    
-    font-weight: 1000;    
-    text-decoration: none;    
+
+  .social a {
+    font-family: "Arima Madurai";
+    font-style: bold;
+    font-size:16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
   }
   .et-hero-tabs h1{
     color: white;
@@ -48,8 +49,10 @@ body {
     letter-spacing: 0.3rem;
     opacity: 0.6;
   }
-  
+
   .et-hero-tabs-container {
+    font-style: bold;
+    font-weight: bold;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -69,8 +72,10 @@ body {
     position: fixed;
     top: 0;
   }
-  
+
   .et-hero-tab {
+    font-family:'Arima Madurai', cursive;
+    font-weight: bold;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -87,7 +92,7 @@ body {
     letter-spacing: 0.1rem;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
   }
   .et-hero-tab:hover {
     color: black;
@@ -95,7 +100,7 @@ body {
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
   }
-  
+
   .et-hero-tab-slider {
     position: absolute;
     bottom: 0;
@@ -105,8 +110,11 @@ body {
     -webkit-transition: left 0.3s ease;
     transition: left 0.3s ease;
   }
-  
+/* larger screens, mobile first style */
   @media (min-width: 800px) {
+    html{
+      font-size: 18px;
+    }
     .et-hero-tabs h1,
     .et-slide h1 {
       font-size: 3rem;
@@ -115,12 +123,17 @@ body {
     .et-slide h3 {
       font-size: 1rem;
     }
-  
+
     .et-hero-tab {
       font-size: 1rem;
+      font-family:'Arima Madurai', cursive;
     }
+    .social{
+
+    }
+    .content{}
   }
-  
+
   .content {
     position: absolute;
     top: 50%;
@@ -183,7 +196,7 @@ body {
     line-height: 40px;
     margin: 0;
   }
-  
+
   @-webkit-keyframes opacity {
     0%, 100% {
       opacity: 0;
@@ -323,7 +336,7 @@ body {
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-  /* 
+  /*
   light green: rgb(229, 33, 39)
   blackish:background: rgb(47, 52, 54);
 
