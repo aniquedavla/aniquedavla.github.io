@@ -10,7 +10,7 @@ body {
     color: rgb(255, 255, 255);
     text-decoration: none;
   }
-  .et-hero-tabs h1{
+  .et-hero-tabs h1, h3{
     color: white;
   }
   .et-hero-tabs,
@@ -35,6 +35,7 @@ body {
     padding: 0 2em;
   }
   .et-slide h1{
+    
     color: white;
   }
   .et-hero-tabs h1,
