@@ -13,8 +13,20 @@ body {
   .et-hero-tabs h1, h3{
     color: white;
   }
-  .et-hero-tabs,
+
   .et-slide {
+    height: 100vh;
+    position: relative;
+    background: rgb(47, 52, 54);
+    text-align: center;
+    padding: 2em 2em;
+  }
+  .et-hero-tabs {
+    height: 100vh;
+    position: relative;
+    background: rgb(47, 52, 54);
+    text-align: center;
+    padding: 1 2em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -28,11 +40,6 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 100vh;
-    position: relative;
-    background: rgb(47, 52, 54);
-    text-align: center;
-    padding: 0 2em;
   }
   .et-slide h1{
     -webkit-box-pack: center;
@@ -385,8 +392,8 @@ body {
   top: 40px;
   left: 20px;
   box-sizing: border-box;
-  padding-right:1.2em;
-  padding-bottom:1em;
+  padding-right:1.4em;
+  padding-bottom:1.2em;
 }
 
 .preview-card .top,

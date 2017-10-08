@@ -6,7 +6,8 @@ class StickyNavigation {
 		this.tabContainerHeight = 70;
 		let self = this;
 		$('.et-hero-tab').click(function() { 
-			self.onTabClick(event, $(this)); 
+			self.onTabClick(event, $(this));
+			self.slideMarginAdjust();
 		});
 		$(window).scroll(() => { this.onScroll(); });
 		$(window).resize(() => { this.onResize(); });
@@ -68,6 +69,14 @@ class StickyNavigation {
 		}
 		$('.et-hero-tab-slider').css('width', width);
 		$('.et-hero-tab-slider').css('left', left);
+	}
+	slideMarginAdjust(){
+		const heightOfNav = $(".et-hero-tabs-container").outerHeight();
+		let h1He
+		console.log(heightOfNav);
+		$("et-slide").css({
+			"margin":heightOfNav;
+		});
 	}
 	
 }
