@@ -6,6 +6,7 @@ class StickyNavigation {
 		this.tabContainerHeight = 70;
 		let self = this;
 		self.slideContentMarginAdjust();
+		self.preSet()
 		$('.et-hero-tab').click(function() { 
 			self.onTabClick(event, $(this));
 		});
@@ -20,7 +21,7 @@ class StickyNavigation {
 	
 	onScroll() {
 		this.checkTabContainerPosition();
-    this.findCurrentTabSelector();
+    	this.findCurrentTabSelector();
 	}
 	
 	onResize() {
@@ -58,7 +59,13 @@ class StickyNavigation {
 			this.setSliderCss();
 		}
 	}
-	
+	preSet(){
+		//scale images with aspect ratio
+		let cardHeight = $(".preview-card .top").height();
+		let cardWidth = $(".preview-card .top").width();
+		let imgDimensions = this.calculateAspectRatioFit(2560, 1404, cardWidth, cardHeight);
+		$(".preview-card .top img").css({width: imgDimensions.width, height:imgDimensions.height})
+	}
 	setSliderCss() {
 		let width = 0;
 		let left = 0;
@@ -72,6 +79,19 @@ class StickyNavigation {
 	slideContentMarginAdjust(){
 		const heightOfNav = $(".et-hero-tabs-container").height();
 		console.log(heightOfNav);
+	}
+	/**
+	* keeps aspect ratio of the orignal region
+	*
+	* @param {Number} srcWidth src width
+	* @param {Number} srcHeight src height
+	* @param {Number} maxWidth max width
+	* @param {Number} maxHeight max height
+	* @return {Object} { width, height }
+	*/
+	calculateAspectRatioFit(srcWidth, srcHeight, maxWidth, maxHeight) {
+		let ratio = Math.min(maxWidth / srcWidth, maxHeight / srcHeight);
+		return { width: srcWidth*ratio, height: srcHeight*ratio };
 	}
 	
 }

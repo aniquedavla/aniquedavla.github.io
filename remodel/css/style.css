@@ -412,6 +412,10 @@ body {
   background-position: center;
   box-shadow: 0px 1px 3px rgba(25,25,25,0.30);
 }
+.preview-card .top img{
+  width: inherit;
+  height: inherit;
+}
 .preview-card .middle{
   position: absolute;
   background: #aaa;
