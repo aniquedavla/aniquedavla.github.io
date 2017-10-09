@@ -65,6 +65,14 @@ class StickyNavigation {
 		let cardWidth = $(".preview-card .top").width();
 		let imgDimensions = this.calculateAspectRatioFit(2560, 1404, cardWidth, cardHeight);
 		$(".preview-card .top img").css({width: imgDimensions.width, height:imgDimensions.height})
+		
+		let aboutWidth = $("#tab-about").width();
+		console.log(aboutWidth);
+		let aboutHeight = $("#tab-about").height();
+		console.log(aboutHeight);
+		let aboutOfsetHeight = $("#tab-about h1").height() * 2.5;
+		let profileImgDimens = this.calculateAspectRatioFit(1024, 1024, (aboutWidth/2), (aboutHeight - aboutOfsetHeight));
+		$("#tab-about img").css({width:profileImgDimens.width, height:profileImgDimens.height});
 	}
 	setSliderCss() {
 		let width = 0;
