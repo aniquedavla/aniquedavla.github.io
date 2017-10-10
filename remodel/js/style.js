@@ -28,6 +28,8 @@ class StickyNavigation {
 		if(this.currentId) {
 			this.setSliderCss();
 		}
+		this.preSet();
+		this.slideContentMarginAdjust();
 	}
 	
 	checkTabContainerPosition() {
@@ -104,6 +106,4 @@ class StickyNavigation {
 	
 }
 
-$(document).ready( () => { new StickyNavigation(); 
-
-});
+$(document).ready( () => { new StickyNavigation(); });
