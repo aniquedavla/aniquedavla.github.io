@@ -5,8 +5,8 @@ class StickyNavigation {
 		this.currentTab = null;
 		this.tabContainerHeight = 70;
 		let self = this;
+		self.preSet();
 		self.slideContentMarginAdjust();
-		self.preSet()
 		$('.et-hero-tab').click(function() { 
 			self.onTabClick(event, $(this));
 		});

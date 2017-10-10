@@ -50,6 +50,10 @@ body {
         align-items: center;
     color: white;
   }
+
+  #tab-about img{
+    padding-top: .8rem; 
+  }
   .et-hero-tabs h1,
   .et-slide h1 {
     font-size: .5rem;
@@ -334,7 +338,7 @@ body {
     .et-hero-tabs h1,
     .et-slide h1 {
       font-size: 2rem;
-      padding-bottom: .1rem;
+      padding-bottom: 0;
     }
     .et-hero-tabs h3,
     .et-slide h3 {
