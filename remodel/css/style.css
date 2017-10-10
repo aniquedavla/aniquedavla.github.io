@@ -333,7 +333,8 @@ body {
     }
     .et-hero-tabs h1,
     .et-slide h1 {
-      font-size: 3rem;
+      font-size: 2rem;
+      padding-bottom: .1rem;
     }
     .et-hero-tabs h3,
     .et-slide h3 {

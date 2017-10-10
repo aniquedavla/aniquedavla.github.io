@@ -70,7 +70,7 @@ class StickyNavigation {
 		console.log(aboutWidth);
 		let aboutHeight = $("#tab-about").height();
 		console.log(aboutHeight);
-		let aboutOfsetHeight = $("#tab-about h1").height() * 2.5;
+		let aboutOfsetHeight = $("#tab-about h1").height() * 3;
 		let profileImgDimens = this.calculateAspectRatioFit(1024, 1024, (aboutWidth/2), (aboutHeight - aboutOfsetHeight));
 		$("#tab-about img").css({width:profileImgDimens.width, height:profileImgDimens.height});
 	}
