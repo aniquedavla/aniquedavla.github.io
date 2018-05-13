@@ -1,0 +1,9 @@
+<div class="et-hero-tabs-container">
+          <a class="et-hero-tab" href="#tab-about">about</a>
+          <a class="et-hero-tab" href="#tab-work">work</a>
+          <a class="et-hero-tab" href="#tab-projects">projects</a>
+          <!-- <a class="et-hero-tab" href="#tab-angular">Angular</a>
+          <a class="et-hero-tab" href="#tab-other">Other</a> -->
+          <span class="et-hero-tab-slider"></span>
+        </div>
+        
