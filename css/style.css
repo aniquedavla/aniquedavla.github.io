@@ -17,14 +17,14 @@ body {
   .et-slide {
     height: 100vh;
     position: relative;
-    background: #F4F9FA;
+    background: rgb(244, 249, 250);
     text-align: center;
     padding: 2em 2em;
   }
   .et-hero-tabs {
     height: 100vh;
     position: relative;
-    background: #F4F9FA;
+    background: rgb(244, 249, 250);
     text-align: center;
     padding: 1 2em;
     display: -webkit-box;
