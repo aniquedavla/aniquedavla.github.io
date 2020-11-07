@@ -17,14 +17,14 @@ body {
   .et-slide {
     height: 100vh;
     position: relative;
-    background: rgb(47, 52, 54);
+    background: #F4F9FA;
     text-align: center;
     padding: 2em 2em;
   }
   .et-hero-tabs {
     height: 100vh;
     position: relative;
-    background: rgb(47, 52, 54);
+    background: #F4F9FA;
     text-align: center;
     padding: 1 2em;
     display: -webkit-box;
@@ -485,7 +485,7 @@ body {
   
   /*
   light green: rgb(229, 33, 39)
-  blackish:background: rgb(47, 52, 54);
+  blackish:background: #F4F9FA;
 
   pitch red:rgb(229, 33, 39)
    */
